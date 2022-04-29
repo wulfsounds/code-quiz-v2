@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./src/css/main.css" />
+    <title>Javascript Code Quiz</title>
+</head>
+
+<body>
+
+    <!-- HighScore link and Timer live here -->
+    <header>
+        <a href="./highscore.html">View Highscores</a>
+        <time><span class="countdown"></span></time>
+    </header>
+
+    <!-- Intros, Quiz Lives Here. Holds Questions, buttons -->
+    <main id="quiz" class="quiz group"></main>
+
+    <!-- Result lives here. Holds Submit Button, Game Over screen, input name, and restart-->
+    <section id="results" class="results group" style="visibility: hidden;">
+        <button id="submit">SUBMIT</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>©2022 Dev Wulf, SMU Bootcamp Code Quiz / Find Repo on GitHub</footer>
+</body>
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<!-- Self-Coded -->
+<script type="text/javascript" src="./src/js/quiz.js"></script>
+
+</html>
